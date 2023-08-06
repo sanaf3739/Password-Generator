@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1b3d31;
+}
+.container {
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    312deg,
+    rgba(255, 255, 0, 0.71) 0%,
+    rgba(43, 207, 156, 1) 50%,
+    rgba(238, 130, 238, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  background-color: #aff2da;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card-container .heading {
+  text-align: center;
+}
+.display-container {
+  padding-top: 1rem;
+}
+.display-container input {
+  all: unset;
+  outline: 2px solid #63af95;
+  height: 45px;
+  width: 270px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: x-large;
+  letter-spacing: 1px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.length-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 10px 0;
+  font-size: larger;
+}
+.length-container p {
+  font-size: larger;
+}
+[data-lengthNumber] {
+  font-weight: bold;
+}
+.slider {
+  text-align: center;
+}
+.slider input {
+  width: 330px;
+}
+.checkbox-container {
+  margin: 8px 0;
+}
+.checkbox-container div {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+.checkbox-container input.checkboxes {
+  height: 20px;
+  width: 20px;
+}
+.checkbox-container label {
+  font-size: larger;
+}
+
+#generate-btn {
+  border-style: none;
+  border-radius: 5px;
+  padding: 16px 0;
+  font-size: larger;
+}
+.strength-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+[data-indicator] {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+#generate-btn {
+  font-size: x-large;
+  font-weight: bold;
+  color: #1e5340;
+}
